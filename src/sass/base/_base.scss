@@ -1,0 +1,28 @@
+@use '../util/' as *;
+
+html {
+    background-color: var(--clr-white-dark);
+    @media (prefers-color-scheme: dark) {
+        background-color: var(--clr-primary-normal);
+    }
+}
+
+body {
+    position: relative;
+    margin: 0 auto;
+    background-color: var(--clr-primary-normal);
+    height: 100vh;
+    width: 100%;
+    max-width: var(--width-full);
+}
+
+p {
+    font-size: rem(12px);
+
+    @include breakpoint(medium) {
+        font-size: rem(16px);
+    }
+    @include breakpoint(large) {
+        font-size: rem(18px);
+    }
+}

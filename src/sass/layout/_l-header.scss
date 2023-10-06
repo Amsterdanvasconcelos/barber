@@ -1,0 +1,32 @@
+@use '../util/' as *;
+
+.l-header-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(40px);
+    padding: rem(16px);
+}
+
+.l-header-content .c-button {
+    display: none;
+}
+
+@include breakpoint(medium) {
+    .l-header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .l-header-content .c-button {
+        display: block;
+    }
+}
+
+@include breakpoint(large) {
+    .l-header-content {
+        padding: rem(30px) rem(60px);
+    }
+}

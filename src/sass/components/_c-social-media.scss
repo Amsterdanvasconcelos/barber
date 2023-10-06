@@ -1,0 +1,25 @@
+@use '../util/' as *;
+
+.c-social-media {
+    display: flex;
+    gap: rem(15px);
+}
+
+.c-social-media__item {
+    color: var(--clr-white-normal);
+    font-size: rem(30px);
+}
+
+.c-social-media__item:hover {
+    color: var(--clr-auxiliary-light);
+    animation: translateY .5s infinite alternate;
+}
+
+@keyframes translateY {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-8px) scale(1.1);
+    }
+}

@@ -1,0 +1,24 @@
+@use '../util/' as *;
+
+.l-location {
+    display: flex;
+    flex-direction: column;
+    gap: rem(20px);
+    
+    padding-top: rem(50px);
+    background-color: var(--clr-white-dark);
+    height: 100vh;
+    color: var(--clr-primary-dark);
+
+    @include breakpoint(medium) {
+        gap: rem(30px);
+    }
+    @include breakpoint(large) {
+        gap: rem(40px);
+    }
+}
+
+.l-location iframe {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+@use '../util/' as *;
+
+.c-btn-whatsapp {
+    position: fixed;
+    bottom: rem(5px);
+    right: rem(7px);
+    
+    display: block;
+    max-width: rem(54px);
+    z-index: 100;
+    transition: .4s;
+    &:hover {
+        transform: scale(1.1);
+    }
+    @include breakpoint(medium) {
+        max-width: rem(74px);
+    }
+}
+

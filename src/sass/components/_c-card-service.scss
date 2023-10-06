@@ -1,0 +1,52 @@
+@use '../util/' as *;
+
+.c-card-service {
+    border-radius: rem(8px);
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: var(--clr-white-normal);
+    max-width: rem(310px);
+    cursor: pointer;
+
+    &:hover {
+        .c-card-service__img {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.c-card-service__wrapper-img {
+    overflow: hidden;
+}
+
+.c-card-service__img {
+    transition: .2s;
+}
+
+.c-card-service__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: rem(16px);
+}
+
+.c-card-service__title {
+    font-size: rem(16px);
+
+    @include breakpoint(large) {
+        font-size: rem(20px);
+    }
+}
+
+.c-card-service__price {
+    padding: rem(8px);
+    border-radius: rem(8px);
+    background-color: var(--clr-auxiliary-dark);
+    color: var(--clr-white-normal);
+    font-size: rem(12px);
+    font-weight: 600;
+
+    @include breakpoint(large) {
+        font-size: rem(16px);
+    }
+}

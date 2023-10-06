@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript -->
+    <script defer src="js/script.js"></script>
+    
+    <title>Barber - Sua Barbearia</title>
+</head>
+<body>
+
+    <div class="c-home" id="home">
+        <header>
+            <nav class="l-header-content">
+                <nav class="c-social-media" data-aos="fade-down">
+                    <a href="" class="c-social-media__item"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="c-social-media__item"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="c-social-media__item"><i class="fa-brands fa-youtube"></i></a>
+                </nav>
+
+                <img 
+                    src="assets/icons/logo.svg" 
+                    alt="Logo Barber" 
+                    class="c-logo-barber" 
+                    data-aos="flip-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1500">
+                
+                <a href="#" class="c-button c-button--one" data-aos="fade-down">Agendar horário</a>
+            </nav>
+        </header>
+
+        <main class="l-hero" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="c-title">ESTILO É UM REFLEXO DA SUA <span class="c-title__span">ATITUDE E SUA PERSONALIDADE.</span></h1>
+            <p>Horário de funcionamento: 09:00 ás 19:00</p>
+            <a 
+                href="#" 
+                class="c-button c-button--two">
+                Agendar horário
+            </a>
+        </main>
+    </div>
+
+    <section class="l-about">
+        <div class="l-about__wrapper-img" data-aos="fade-right">
+            <img src="assets/imgs/images.svg" alt="Sobre a barbearia">
+        </div>
+        <div class="l-about__text" data-aos="fade-left">
+            <h1 class="c-title">SOBRE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus animi nihil consequatur maiores iusto mollitia ipsam, esse autem, nostrum obcaecati earum vel tenetur.</p>
+            <p>Horário de funcionamento: 09:00 ás 19:00</p>
+        </div>
+    </section>
+
+    <section class="l-services">
+        <h1 class="c-title">SERVIÇOS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum officiis sit vel quaerat. Beatae harum eaque, quod optio sed exercitationem labore ea recusandae.</p>
+        <div class="l-services__wrapper-cards">
+            <article class="c-card-service" data-aos="flip-left">
+                <div class="c-card-service__wrapper-img">
+                    <img src="assets/imgs/corte1.png" alt="Corte de cabelo." class="c-card-service__img">
+                </div>
+                <div class="c-card-service__body">
+                    <h2 class="c-card-service__title">Corte cabelo</h2>
+                    <span class="c-card-service__price">R$ 45,00</span>
+                </div>
+            </article>
+            <article class="c-card-service" data-aos="flip-left" data-aos-delay="400">
+                <div class="c-card-service__wrapper-img">
+                    <img src="assets/imgs/corte2.png" alt="Corte de barba." class="c-card-service__img">
+                </div>
+                <div class="c-card-service__body">
+                    <h2 class="c-card-service__title">Barba completa</h2>
+                    <span class="c-card-service__price">R$ 35,00</span>
+                </div>
+            </article>
+            <article class="c-card-service" data-aos="flip-left" data-aos-delay="800">
+                <div class="c-card-service__wrapper-img">
+                    <img src="assets/imgs/corte3.png" alt="Corte de cabelo." class="c-card-service__img">
+                </div>
+                <div class="c-card-service__body">
+                    <h2 class="c-card-service__title">Cabelo e barba</h2>
+                    <span class="c-card-service__price">R$ 70,00</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="l-location">
+        <h1 class="c-title c-title--small">Venha conhecer</h1>
+
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15924.367837451033!2d-39.2644229!3d-3.7901539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1696561522979!5m2!1spt-BR!2sbr" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <footer class="l-footer">
+        <nav class="c-social-media" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <a href="" class="c-social-media__item"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="c-social-media__item"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="c-social-media__item"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+
+        <img src="assets/icons/logo.svg" alt="Logo Barber" class="c-logo-barber" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+        <p class="footer__copyright" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Copyright&copy; 2023 | Barbearia - Todos os direitos reservados.</p>
+    </footer>
+
+    <a 
+        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" 
+        class="c-btn-whatsapp" 
+        target="_blank"
+        data-aos="zoom-in-up">
+        <img src="assets/icons/whatssapp.svg" alt="logo Whatsapp" class="c-btn-whatsapp__logo">
+    </a>
+
+    <script>
+        AOS.init();
+    </script> 
+</body>
+</html>

@@ -1,0 +1,46 @@
+:root {
+    //boilerplate variables
+    --width-full: 100rem;
+    
+    --clr-facebook: hsl(221 44% 41%);
+    --clr-twitter: hsl(196 100% 46%);
+    --clr-linkedin: hsl(201 100% 35%);
+    --clr-youtube: hsl(0 74% 46%);
+    --clr-instagram: hsl(349 75% 57%);
+    --clr-github: hsl(0 0% 20%);
+    --clr-text: var(--clr-github);
+ 
+    // @see https://systemfontstack.com/
+    --ff-sans-serif: -apple-system, blinkmacsystemfont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, ubuntu, roboto, noto, arial,
+    sans-serif;
+
+    --ff-serif: times new roman, droid serif, times, source serif pro,
+    serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+
+    --ff-mono: menlo, consolas, monaco, liberation mono, lucida console,
+    monospace;
+
+    //barber variables
+    --clr-primary-normal: #06121e;
+    --clr-primary-dark: #040f1a;
+    --clr-primary-light: #0c2135;
+
+    --clr-secondary-normal: #090d11;
+    --clr-secondary-dark: #06090c;
+    --clr-secondary-light: #1a1f25;
+
+    --clr-black-normal: #232224;
+    --clr-black-dark: #161617;
+    --clr-black-light: #353436;
+
+    --clr-white-normal: #ffffff;
+    --clr-white-dark: #edeaef;
+    --clr-white-light: #fefbff;
+
+    --clr-auxiliary-normal: #d94140;
+    --clr-auxiliary-dark: #b42b2b;
+    --clr-auxiliary-light: #d34040;
+
+    --ff-primary: 'Sora', var(--ff-sans-serif);
+}

@@ -1,0 +1,35 @@
+@use '../util/' as *;
+
+.l-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: rem(80px);
+    
+    padding: rem(16px);
+    height: 100vh;
+    color: var(--clr-white-normal);
+
+    @include breakpoint(large) {
+        padding: rem(30px) rem(60px);
+        flex-direction: row;
+    }
+}
+
+.l-about__wrapper-img {
+    @include breakpoint(large) {
+        flex: 1;
+    }
+}
+
+.l-about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: rem(20px);
+
+    @include breakpoint(large) {
+        flex: 1;
+    }
+}

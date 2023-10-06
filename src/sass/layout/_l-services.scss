@@ -1,0 +1,30 @@
+@use '../util/' as *;
+
+.l-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(30px);
+    
+    padding: rem(50px) rem(16px) rem(16px);
+    background-color: var(--clr-white-dark);
+    min-height: 100vh;
+}
+
+.l-services p {
+    text-align: center;
+    max-width: rem(600px);
+}
+
+.l-services__wrapper-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(20px);
+
+    @include breakpoint(medium) {
+        margin-top: rem(40px);
+        flex-direction: row;
+        gap: rem(50px);
+    }
+}
